@@ -72,7 +72,7 @@ with st.container():
             # "grafiti.png",
 
         ]
-        titels = ["s","sd","asf","asf
+        titels = ["s","sd","asf","asf"
            
         ]
         col1, col2= st.columns(2)
