@@ -1,30 +1,4 @@
-
-
-
-
-
-
-# from st_clickable_images import clickable_images
-
 import streamlit as st
-
-# import matplotlib.pyplot as plt
-# from matplotlib.animation import FuncAnimation
-# from matplotlib.colors import LinearSegmentedColormap
-
-# from streamlit_player import st_player
-# from IPython.display import Audio
-
-
-# n_sounds = 6
-# # Define the audio file path
-# audio_file = open(f"{random.randint(0,n_sounds)}.mp3", "rb").read()
-#
-# # Play the audio file using the st_player function
-# st_player(audio_file)
-
-
-
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -55,54 +29,54 @@ with st.container():
 
 # art
 
-# work
-        urls = [
-            "https://photos.app.goo.gl/ihT5Sty7Yx3NUsVL8",
-            "https://photos.app.goo.gl/fuAaCVfaQq6TthMf9",
-            "https://photos.app.goo.gl/ihT5Sty7Yx3NUsVL8",
-            "https://photos.app.goo.gl/ihT5Sty7Yx3NUsVL8",
-        ]
+# # work
+#         urls = [
+#             "https://photos.app.goo.gl/ihT5Sty7Yx3NUsVL8",
+#             "https://photos.app.goo.gl/fuAaCVfaQq6TthMf9",
+#             "https://photos.app.goo.gl/ihT5Sty7Yx3NUsVL8",
+#             "https://photos.app.goo.gl/ihT5Sty7Yx3NUsVL8",
+#         ]
 
-        image_paths = [
-            "art.png",
-            "wall.png",
-            "wall.png",
-            "wall.png",
-            # "rishum.png",
-            # "grafiti.png",
+#         image_paths = [
+#             "art.png",
+#             "wall.png",
+#             "wall.png",
+#             "wall.png",
+#             # "rishum.png",
+#             # "grafiti.png",
 
-        ]
-        titels = ["s","sd","asf","asf"
+#         ]
+#         titels = ["s","sd","asf","asf"
            
-        ]
-        col1, col2= st.columns(2)
+#         ]
+#         col1, col2= st.columns(2)
 
-        for url, path, titels, col in zip(urls, image_paths,titels, [col1,col2,col2,col2]):
-            with col:
-                st.write(titels)
-                link = f'<a href="{url}" target="_blank"><img src="data:image/jpeg;base64,{base64.b64encode(open(path, "rb").read()).decode()}" alt="Description of the image" width="222"></a>'
-                st.markdown(link, unsafe_allow_html=True)
+#         for url, path, titels, col in zip(urls, image_paths,titels, [col1,col2,col2,col2]):
+#             with col:
+#                 st.write(titels)
+#                 link = f'<a href="{url}" target="_blank"><img src="data:image/jpeg;base64,{base64.b64encode(open(path, "rb").read()).decode()}" alt="Description of the image" width="222"></a>'
+#                 st.markdown(link, unsafe_allow_html=True)
 
-with st.container():
-    with st.container():
-        st.write("---")
-        st.write("054-8000524")
-        st.write("shirgilboatamari@gmail.com")
-        st.write("---")
+# with st.container():
+#     with st.container():
+#         st.write("---")
+#         st.write("054-8000524")
+#         st.write("shirgilboatamari@gmail.com")
+#         st.write("---")
 
 
-        # left_column, right_column = st.columns(2)
-        # with left_column:
-        #     # st.subheader("Bring back a litlebit of nature")
-        #     # st.title("SHIRA TAMARY")
-        #     st.write(
-        #         "somthing"
-        #     )
-        #     st.write("[art](https://www.youtube.com/@CodingIsFun) ")
-        # with right_column:
-        #     st.write("[social wall painting](https://www.youtube.com/@CodingIsFun) ")
-        #     st.write(" my email: ")
-        # # with right_column:
-        # #     # img = Image.open("lily.jpg")
-        # #     # st.image(img)
-        #
+#         # left_column, right_column = st.columns(2)
+#         # with left_column:
+#         #     # st.subheader("Bring back a litlebit of nature")
+#         #     # st.title("SHIRA TAMARY")
+#         #     st.write(
+#         #         "somthing"
+#         #     )
+#         #     st.write("[art](https://www.youtube.com/@CodingIsFun) ")
+#         # with right_column:
+#         #     st.write("[social wall painting](https://www.youtube.com/@CodingIsFun) ")
+#         #     st.write(" my email: ")
+#         # # with right_column:
+#         # #     # img = Image.open("lily.jpg")
+#         # #     # st.image(img)
+#         #
